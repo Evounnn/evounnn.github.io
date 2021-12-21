@@ -1263,3 +1263,13 @@ button.lookFilled-1Gx00P.colorGreen-29iAKY:hover{
 .flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignCenter-1dQNNs.noWrap-3jynv6.header-1TKi98.header-3nFfBB .closeButton-20eBet.close-hZ94c6.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN{
 	padding-top: 16px;
 }
+
+.modalSize-cqUaws.root-1gCeng.fullscreenOnMobile-1bD22y{
+	width: 400px;
+	border: none;
+}
+
+.modalSize-cqUaws{
+	width: 390px;
+	border: 5px solid var(--border-color);
+}
