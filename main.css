@@ -1277,3 +1277,85 @@ button.lookFilled-1Gx00P.colorGreen-29iAKY:hover{
 .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.wrap-ZIn9Iy.sourceContainer-3LOXkb.grid-32iiFi{
 	width: 380px;
 }
+
+.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStart-H-X2h-.noWrap-3jynv6.header-1TKi98{
+	border: 5px solid var(--border-color);
+	border-bottom: none;
+}
+
+.header-4zuFdR{
+	border: 5px solid var(--border-color);
+	background-color: var(--background-color);
+}
+
+.topSection-y3p-_D{
+	border: 5px solid var(--border-color);
+	border-bottom: none;
+	background-color: var(--background-color);
+}
+
+.tabBarContainer-37hZsr{
+	border-top: 5px solid var(--border-color);
+	background-color: var(--background-color);
+}
+
+.profileBanner-33-uE1{
+	width: 100%;
+}
+
+.body-r6_QPy{
+	border: 5px solid var(--border-color);
+	border-top: none;
+	background-color: var(--background-color);
+}
+
+.popoutBanner-19WKGg{
+	border: 5px solid var(--border-color);
+	width: 290px;
+}
+
+.headerTop-3vNv-a{
+	border: 5px solid var(--border-color);
+	border-bottom: none;
+	background-color: var(--background-color);
+}
+
+.body-3HBlXn{
+	border: 5px solid var(--border-color);
+	border-top: none;
+	border-bottom: none;
+	background-color: var(--background-color);
+}
+
+.input-2_SIlA{
+	border: 2px solid var(--border-color);
+	background-color: var(--background-color);
+}
+
+.bodyInnerWrapper-26fQXj{
+	border: 2px solid var(--border-color);
+	background-color: var(--background-color);
+}
+
+.bodyTitle-1ySSKn.fontDisplay-1dagSA.base-1x0h_U.size12-3cLvbJ.muted-3-7c5L.uppercase-3VWUQ9{
+	border-bottom: 2px solid var(--border-color);
+	background-color: var(--background-color);
+}
+
+.footer-3UKYOU{
+	border: 5px solid var(--border-color);
+	border-top: none;
+	background-color: var(--background-color);
+}
+
+.textarea-2r0oV8.inputDefault-_djjkz.input-cIJ7To.scrollbarGhostHairline-1mSOM1.scrollbar-3dvm_9{
+	width: 97% !important;
+	padding: 0px !important;
+	margin-left: 4px;
+	background-color: var(--background-color);
+}
+
+.divider-ewBQKj{
+	background-color: var(--border-color);
+	height: 2px;
+}
