@@ -1238,3 +1238,28 @@ button.lookFilled-1Gx00P.colorGreen-29iAKY:hover{
 	background-color: var(--background-color);
 	border-top: none !important;
 }
+
+.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignCenter-1dQNNs.noWrap-3jynv6.header-1TKi98.header-3nFfBB{
+	border: 5px solid var(--border-color) !important;
+	background-color: var(--background-color);
+	border-bottom: none !important;
+	padding-top: 16px;
+}
+
+.header-3nFfBB{
+	margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.theme-dark .root-1gCeng{
+	background-color: var(--background-color);
+}
+
+.content-1LAB8Z.modalContent-N6GsWH.thin-1ybCId.scrollerBase-289Jih{
+	padding-top: 16px;
+}
+
+
+.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignCenter-1dQNNs.noWrap-3jynv6.header-1TKi98.header-3nFfBB .closeButton-20eBet.close-hZ94c6.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN{
+	padding-top: 16px;
+}
