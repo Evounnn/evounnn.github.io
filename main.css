@@ -1128,3 +1128,113 @@ div.sidebar-2K8pFh div.thin-1ybCId.scrollerBase-289Jih{
 .expandedFolderIconWrapper-3fmTfW svg{
 	color: var(--color-icon) !important;
 }
+
+.circleIconButton-hZmpE8.selected-3mFF3I{
+	background-color: var(--color-icon);
+}
+
+.circleIconButton-hZmpE8{
+	background-color: var(--background-color);
+	color: var(--color-icon);
+}
+
+.scroller-2hZ97C{
+	background-color: var(--background-color);
+	border: 5px solid var(--border-color);
+}
+
+.lookOutlined-3sRXeN.colorGreen-29iAKY{
+	background-color: var(--color-icon);
+	border: 1px solid var(--border-color);
+	border-color: var(--border-color);
+}
+
+.lookOutlined-3sRXeN.colorGreen-29iAKY:hover{
+	border: 1px solid var(--border-color);
+	background-color: var(--background-color);
+}
+
+div:hover button.lookFilled-1Gx00P.colorGreen-29iAKY{
+	border: 1px solid var(--border-color);
+	background-color: var(--background-color);
+	opacity: 0.3;
+}
+
+button.lookFilled-1Gx00P.colorGreen-29iAKY:hover{
+	border: 1px solid var(--border-color);
+	background-color: var(--background-color) ;
+	opacity: 1 !important;
+}
+
+.wrapper-35wsBm{
+	background-color: var(--background-color);
+	border: 5px solid var(--border-color);
+}
+
+.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyCenter-3D2jYp.alignStretch-DpGPf3.noWrap-3jynv6.guildInfo-1STtYi{
+	border-right: 3px solid var(--border-color);
+}
+
+.colorStandard-2KCXvj.size14-e6ZScH.h5-18_1nd.title-3sZWYQ.header-2BTCnc{
+	border-bottom: 3px solid var(--border-color);
+}
+
+.bd-addon-list .bd-addon-header{
+	background-color: var(--background-color);
+	border: 5px solid var(--border-color);
+}
+
+.bd-description-wrap{
+	background-color: var(--background-color);
+	border: 5px solid var(--border-color);
+	border-top: none;
+	border-bottom: none;
+}
+
+.bd-addon-list .bd-footer{
+	background-color: var(--background-color);
+	border: 5px solid var(--border-color);
+	border-top: none;
+}
+
+.selectorButton-2es7-i:hover{
+	background-color: var(--background-color);
+	border: 2px solid var(--border-color);
+	opacity: 1;
+}
+
+.selectorButton-2es7-i{
+	background-color: var(--background-color);
+	border: 1px solid var(--border-color);
+	opacity: 0.3;
+}
+
+.selectorButton-2es7-i.selectorButtonSelected-Jj5-3m{
+	background-color: var(--background-color);
+	border: 2px solid var(--border-color);
+	opacity: 1;
+}
+
+.lookFilled-1Gx00P.colorBrandNew-g5lmBU{
+	border: 1px solid var(--border-color);
+	background-color: var(--background-color);
+	opacity: 0.3;
+}
+
+.lookFilled-1Gx00P.colorBrandNew-g5lmBU:hover{
+	border: 2px solid var(--border-color);
+	background-color: var(--background-color) ;
+	opacity: 1;
+}
+
+.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.justifyBetween-2tTqYu.noWrap-3jynv6.header-1TKi98{
+	border: 5px solid var(--border-color);
+	background-color: var(--background-color);
+	border-bottom: none;
+}
+
+.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.footer-2gL1pp{
+	border: 5px solid var(--border-color) !important;
+	background-color: var(--background-color);
+	border-top: none !important;
+}
