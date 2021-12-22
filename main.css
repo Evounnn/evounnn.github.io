@@ -1359,3 +1359,41 @@ button.lookFilled-1Gx00P.colorGreen-29iAKY:hover{
 	background-color: var(--border-color);
 	height: 2px;
 }
+
+.lookFilled-1Gx00P.colorGreen-29iAKY{
+	border: 1px solid var(--border-color);
+	background-color: var(--background-color);
+	opacity: 0.3;
+}
+
+.platform-win .sidebar-2K8pFh{
+	background-color: var(--background-color);
+	border-top: 1px solid var(--border-color);
+}
+
+.wrapper-3NnKdC{
+	background-color: var(--background-color);
+}
+
+.standardSidebarView-3F1I7i{
+
+	background-color: var(--background-color);
+}
+
+.app-2rEoOp{
+	background-color: var(--background-color);
+}
+
+.layer-3QrUeG{
+
+	background-color: var(--background-color);
+}
+
+.bg-h5JY_x{
+	background: var(--background-img) center/cover;
+	filter:var(--filter-img);
+}
+
+.bd-addon-list .bd-addon-card{
+	background-color: var(--background-color);
+}
