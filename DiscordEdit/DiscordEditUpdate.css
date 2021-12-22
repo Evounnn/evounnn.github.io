@@ -449,8 +449,7 @@ div.scroller-1Bvpku{
 
 div.chat-3bRxxu section.title-3qD0b-{
     background-color: var(--background-color);
-    border: 5px solid var(--border-color);
-    border-left: none;
+    border-bottom: 5px solid var(--border-color);
 }
 
 /*boite nav*/
