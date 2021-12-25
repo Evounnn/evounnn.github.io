@@ -1396,3 +1396,37 @@ button.lookFilled-1Gx00P.colorGreen-29iAKY:hover{
 .bd-addon-list .bd-addon-card{
 	background-color: var(--background-color);
 }
+
+.lookFilled-1Gx00P.colorRed-1TFJan{
+	border: 1px solid var(--delet-button);
+	background-color: var(--background-color);
+	opacity: 0.3;
+}
+
+div:hover button.lookFilled-1Gx00P.colorRed-1TFJan{
+	border: 1px solid var(--delet-button);
+	background-color: var(--background-color);
+	opacity: 0.3;
+}
+
+button.lookFilled-1Gx00P.colorRed-1TFJan:hover{
+	border: 1px solid var(--delet-button);
+	background-color: var(--background-color) ;
+	opacity: 1 !important;
+}
+
+.lookFilled-1Gx00P.colorRed-1TFJan div.contents-18-Yxp{
+	color: var(--delet-button);
+}
+
+div:hover button.lookFilled-1Gx00P.colorRed-1TFJan div.contents-18-Yxp{
+	color: var(--delet-button);
+}
+
+button.lookFilled-1Gx00P.colorRed-1TFJan:hover div.contents-18-Yxp{
+	color: var(--delet-button);
+}
+
+.membersWrap-2h-GB4 .members-1998pB{
+	height: calc(100% - 0px) !important;
+}
