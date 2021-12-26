@@ -399,10 +399,9 @@ div#body{
 	width: 400px;
 	height: 482.4px;
 	border-radius: 10px;
-	display: inline-block;
 	font-family: Calibri, sans-serif;
 	margin-left: 10px;
-	margin-top: 10px;
+	margin-top: 20px;
 }
 
 .ReadAllNotificationsButtonimg{
@@ -494,7 +493,7 @@ div#body{
 	border-radius: 10px;
 	display: inline-block;
 	margin-left: 10px;
-	margin-top: 10px;
+	margin-top: 20px;
 	font-family: Calibri, sans-serif;
 }
 
@@ -586,9 +585,9 @@ div#body{
 	width: 400px;
 	height: 482.4px;
 	border-radius: 10px;
-	display: inline-block;
+
 	margin-left: 10px;
-	margin-top: 10px;
+	margin-top: 20px;
 	font-family: Calibri, sans-serif;
 }
 
@@ -679,9 +678,9 @@ div#body{
 	width: 400px;
 	height: 482.4px;
 	border-radius: 10px;
-	display: inline-block;
+
 	margin-left: 10px;
-	margin-top: 10px;
+	margin-top: 20px;
 	font-family: Calibri, sans-serif;
 }
 
