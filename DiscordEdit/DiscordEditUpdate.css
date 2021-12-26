@@ -1430,3 +1430,33 @@ button.lookFilled-1Gx00P.colorRed-1TFJan:hover div.contents-18-Yxp{
 .membersWrap-2h-GB4 .members-1998pB{
 	height: calc(100% - 0px) !important;
 }
+
+.scroller-3BxosC.thin-1ybCId.scrollerBase-289Jih{
+	background-color: var(--background-color);
+	border: 2px solid var(--border-color);
+	border-radius: 20px;
+}
+
+.item-1tOPte.labelContainer-1BLJti.colorDanger-2qLCe1.colorDefault-2K3EoJ{
+	border: 1px solid var(--delet-button);
+	background-color: var(--background-color);
+	opacity: 0.3;
+}
+
+div.item-1tOPte.labelContainer-1BLJti.colorDanger-2qLCe1.colorDefault-2K3EoJ:hover{
+	border: 1px solid var(--delet-button);
+	background-color: var(--background-color);
+	opacity: 1;
+}
+
+div.item-1tOPte.labelContainer-1BLJti.colorDanger-2qLCe1.colorDefault-2K3EoJ .label-22pbtT{
+	color: var(--delet-button);
+}
+
+.menu-3sdvDG.styleFlexible-wGDiIL{
+	background-color: transparent;
+}
+
+.submenuPaddingContainer-fiOCHc, .submenu-2-ysNh.menu-3sdvDG{
+	background-color: transparent;
+}
