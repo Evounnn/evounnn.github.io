@@ -4,7 +4,6 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="stylesheet" type="text/javascript" href="js/main.js">
 	<link rel="icon" type="icon/ico" sizes="16x16" href="img/D_app_dark.ico">
 	<script type="text/javascript">
 		function n1() {  
@@ -13,52 +12,86 @@
 		function n2() {  
    			 alert ("Pour information ceci est une BETA. Des Mises à jour auront lieu ce qui demandera à réinstaller le thème, rejoint donc le discord pour les informations !");  
 			} 
+		function Menu1() {
+			  var div = document.getElementById("navbackground");
+
+			  if (div.style.visibility === "visible") {
+			    div.style.visibility = "hidden";
+			  } else {
+			    div.style.visibility = "visible";
+			  }
+			}
+
+		function Menubutton1() {
+
+			  var div = document.getElementById("fixedtopbar");
+
+			  if (div.style.visibility === "visible") {
+			    div.style.visibility = "hidden";
+			  } else {
+			    div.style.visibility = "visible";
+			  }
+			}
 	</script>
 	<title>BetterDiscord Discord Edit</title>
 </head>
 <body>
-	<div class="nav">
-		<div class="BDimg">
-			<a href="https://betterdiscord.app/" target="_BLANK"><img src="img/logo_large.svg"></a>
-		</div>
-		<div class="navseparator"></div>
-		<div style="margin-top: 25px; margin-bottom: 25px; margin-left: 20%; width: 140px !important;">
-			<a class="BDa"href="https://betterdiscord.app/" target="_BLANK">
-				<div class="navinstallerBD">
-					<span class="navinstallerBDtext">Installer BetterDiscord</span>
-				</div>
-			</a>
-		</div>
-		<div style="margin-top: 25px; margin-bottom: 25px; margin-left: 33%; width: 77px !important;">
-		<a href="#theme" class="navthemea">
-			<div class="navtheme">
-				<span>Thèmes</span>
+	<div id="navbackground" style="visibility: hidden;">
+		<div id="nav">
+			<div id="MenubuttonClose" style="position: fixed;" onclick="Menubutton1(); Menu1();">
+				X
 			</div>
-		</a>
-		</div>
-		<div style="margin-top: 25px; margin-bottom: 25px; margin-left: 33%; width: 77px !important;">
-			<a href="#plugin" class="navpluga">
-				<div class="navplug">
-					<span>Plugins</span>
-				</div>
-			</a>
-		</div>
-		<div class="navseparator"></div>
-		<div style="margin-top: 25px; margin-bottom: 25px; margin-left: 31%; width: 87px !important;">
-			<a href="https://discord.com/invite/pMu2X4w3ru" target="_BLANK" class="joina">
-				<div id="join">
-					<span>Join Me !</span>
-				</div>
-			</a>
-		</div>
-		<div class="navseparator"></div>
-		<a href="https://discord.com/" target="_BLANK">
-			<div class="Discordcom">
-				<img src="img/Discord.svg" sizes="209x50">
+			<div class="BDimg">
+				<a href="https://betterdiscord.app/" target="_BLANK"><img src="img/logo_large.svg"></a>
 			</div>
-		</a>
+			<div class="navseparator"></div>
+			<div style="margin-top: 25px; margin-bottom: 25px; margin-left: 20%; width: 140px !important;">
+				<a class="BDa"href="https://betterdiscord.app/" target="_BLANK">
+					<div class="navinstallerBD">
+						<span class="navinstallerBDtext">Installer BetterDiscord</span>
+					</div>
+				</a>
+			</div>
+			<div style="margin-top: 25px; margin-bottom: 25px; margin-left: 33%; width: 77px !important;">
+			<a href="#theme" class="navthemea">
+				<div class="navtheme" onclick="Menubutton1(); Menu1();">
+					<span>Thèmes</span>
+				</div>
+			</a>
+			</div>
+			<div style="margin-top: 25px; margin-bottom: 25px; margin-left: 33%; width: 77px !important;">
+				<a href="#plugin" class="navpluga">
+					<div class="navplug" onclick="Menubutton1(); Menu1();">
+						<span>Plugins</span>
+					</div>
+				</a>
+			</div>
+			<div class="navseparator"></div>
+			<div style="margin-top: 25px; margin-bottom: 25px; margin-left: 31%; width: 87px !important;">
+				<a href="https://discord.com/invite/pMu2X4w3ru" target="_BLANK" class="joina">
+					<div id="join">
+						<span>Join Me !</span>
+					</div>
+				</a>
+			</div>
+			<div class="navseparator"></div>
+			<a href="https://discord.com/" target="_BLANK">
+				<div class="Discordcom">
+					<img src="img/Discord.svg" sizes="209x50">
+				</div>
+			</a>
+		</div>
 	</div>
 	<div id="body">
+		<div id="fixedtopbar" style="position: fixed; visibility: visible;">
+			<div id="Menubutton" onclick="Menubutton1(); Menu1(); ">
+				<svg x="0px" y="0px" width="34px" height="27px" viewBox="0 0 34 27" enable-background="new 0 0 34 27">
+					<rect fill="#FFFFFF" width="34" height="4"></rect>
+					<rect fill="#FFFFFF" width="34" height="4" y="11"></rect>
+					<rect fill="#FFFFFF" width="34" height="4" y="23"></rect>
+				</svg>	
+			</div>
+		</div>
 		<div id="theme">
 			<div class="themetitle">Thèmes</div>
 			<div class="dashboardtheme">
