@@ -1161,3 +1161,10 @@ button.button-38aScr.lookFilled-1Gx00P.colorRed-1TFJan.sizeMedium-1AC_Sl.grow-q7
 	border: 5px solid var(--border-color) !important;
 	background-color: var(--background-color);
 }
+
+.typeWindows-1za-n7.withFrame-haYltI.titleBar-AC4pGV.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3:after{
+	content: "Theme by E.#7528";
+	color: var(--text-color);
+	text-align: center;
+	width: 100%;
+}
