@@ -293,6 +293,7 @@ div.chat-3bRxxu section.title-3qD0b-{
 div.sidebar-2K8pFh nav{
 	background-color: var(--background-color);
 	border: 5px solid var(--border-color);
+	border-radius: 0 0 0 0;
 }
 
 .activityPanel-28dQGo{
@@ -1141,5 +1142,23 @@ button.button-38aScr.lookFilled-1Gx00P.colorRed-1TFJan.sizeMedium-1AC_Sl.grow-q7
 
 .container-3u944p{
 	border: 5px solid var(--border-color);
+	background-color: var(--background-color);
+}
+
+.bd-error-modal-header.header-1TKi98.separator-2-RRj_{
+	border: 5px solid var(--border-color);
+	background-color: var(--background-color);
+}
+
+.bd-error-modal-content.content-1LAB8Z.thin-1ybCId.scrollerBase-289Jih{
+	border: 5px solid var(--border-color);
+	border-bottom: none;
+	border-top: none;
+	background-color: var(--background-color);
+	border-radius: 0 0 0 0;
+}
+
+.flex-1xMQg5.flex-1O1GKY.horizontalReverse-2eTKWD.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.footer-2gL1pp.bd-error-modal-footer{
+	border: 5px solid var(--border-color) !important;
 	background-color: var(--background-color);
 }
