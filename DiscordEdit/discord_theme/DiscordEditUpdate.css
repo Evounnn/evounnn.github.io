@@ -1168,3 +1168,9 @@ button.button-38aScr.lookFilled-1Gx00P.colorRed-1TFJan.sizeMedium-1AC_Sl.grow-q7
 	text-align: center;
 	width: 100%;
 }
+
+
+.privateChannels-1nO12o{
+	border: 5px solid var(--border-color) !important;
+	background-color: var(--background-color);
+}
