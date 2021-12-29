@@ -20,22 +20,6 @@ body{
 	cursor: pointer;
 }
 
-#MenubuttonClose{
-	right: 1%;
-	background-color: red;
-	font-family: Calibri, sans-serif;
-	cursor: pointer;
-	font-size: 25px;
-	width: 34px;
-    height: 27px;
-    padding: 5px;
-	padding-top: 2.5px;
-    margin: 5px;
-    margin-top: 2px;
-    top: 2px;
-    text-align: center;
-}
-
 #fixedtopbar{
 	right: 1%;
 	height: 100%;
@@ -591,13 +575,12 @@ div#body{
 }
 
 .CallTimeCounterdownloaddiv{
+	margin-right: 0px;
 	padding: 5px;
+	width: 105px !important;
+	border: 1px solid #7289da; 
+	transition: background-color 0.33s, border 0.33s; 
 	background-color: #7289da;
-	width: 105px;
-	margin-top: 25px;
-	margin-bottom: 25px;
-	margin-left: 147.5px;
-	border: 1px solid #7289da;
 	font-family: Calibri, sans-serif;
 	transition: background-color 0.33s, border 0.33s;
 }
