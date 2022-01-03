@@ -1179,3 +1179,18 @@ button.button-38aScr.lookFilled-1Gx00P.colorRed-1TFJan.sizeMedium-1AC_Sl.grow-q7
 	border: 5px solid var(--border-color) !important;
 	background-color: var(--background-color);
 }
+
+.main-3auUui.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y{
+	border: 5px solid var(--border-color);
+	background-color: var(--background-color);
+}
+
+.optionContainer-15srkc{
+	border: 2px solid var(--border-color);
+	background-color: var(--background-color);
+}
+
+.optionContainer-15srkc:hover{
+	border: 2px solid var(--color-button-hover);
+	background-color: var(--background-color);
+}
