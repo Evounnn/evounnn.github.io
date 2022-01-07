@@ -1194,3 +1194,25 @@ button.button-38aScr.lookFilled-1Gx00P.colorRed-1TFJan.sizeMedium-1AC_Sl.grow-q7
 	border: 2px solid var(--color-button-hover);
 	background-color: var(--background-color);
 }
+
+.flex-1xMQg5.flex-1O1GKY.horizontalReverse-2eTKWD.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyBetween-2tTqYu.alignStretch-DpGPf3.wrap-ZIn9Iy.footer-2gL1pp{
+	border: 5px solid var(--border-color) !important;
+	border-top: none !important;
+	background-color: var(--background-color);
+}
+
+.scroller-1-nKid.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2{
+	border: 5px solid var(--border-color);
+	background-color: var(--background-color);
+}
+
+.reactors-Blmlhw.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2{
+	border: 5px solid var(--border-color);
+	border-left: none;
+	background-color: var(--background-color);
+}
+
+.pictureInPictureWindow-1B5qSe.elevationHigh-3A9Xbf{
+	border: 5px solid var(--border-color);
+	background-color: var(--background-color);
+}
