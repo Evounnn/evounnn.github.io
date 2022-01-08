@@ -32,11 +32,26 @@
 			    div.style.visibility = "visible";
 			  }
 			}
+		function Menubutton2() {
+
+			  var div = document.getElementById("fixedtopbar2");
+
+			  if (div.style.visibility === "visible") {
+			    div.style.visibility = "hidden";
+			  } else {
+			    div.style.visibility = "visible";
+			  }
+			}
 	</script>
 	<title>BetterDiscord Discord Edit</title>
 </head>
 <body>
-	<div id="navbackground" style="visibility: hidden;" onclick="Menubutton1(); Menu1();">
+	<div id="navbackground" style="visibility: hidden;">onclick="Menubutton1(); Menu1();"
+		<div id="fixedtopbar2" style="position: fixed;">
+			<div id="Menubutton2" onclick="Menubutton1(); Menu1(); ">
+				<p style="margin-top:1.5%;">X</p>
+			</div>
+		</div>
 		<div id="nav">
 			<div class="BDimg">
 				<a href="https://betterdiscord.app/" target="_BLANK"><img src="img/logo_large.svg"></a>
