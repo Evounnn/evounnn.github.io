@@ -20,7 +20,27 @@ body{
 	cursor: pointer;
 }
 
+#Menubutton2{
+	width: 34px;
+	height: 27px;
+	padding: 5px;
+	margin: 0px;
+	background-color: red;
+	cursor: pointer;
+	font-size: 20px;
+	text-align: center;
+}
+
 #fixedtopbar{
+	right: 1%;
+	height: 100%;
+	min-height: 50px;
+	border-bottom: 5px solid var(--border-color);
+	margin-left: -0px;
+	color: whitesmoke;
+}
+
+#fixedtopbar2{
 	right: 1%;
 	height: 100%;
 	min-height: 50px;
