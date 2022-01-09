@@ -1216,3 +1216,11 @@ button.button-38aScr.lookFilled-1Gx00P.colorRed-1TFJan.sizeMedium-1AC_Sl.grow-q7
 	border: 5px solid var(--border-color);
 	background-color: var(--background-color);
 }
+
+.avatarContainer-28iYmV.avatar-3tNQiO.avatarSmall-1PJoGO{
+    box-shadow:inset 0 0 0 2px hsl(197,calc(var(--saturation-factor, 1)*100%),50%),inset 0 0 0 3px var(--background-floating);
+}
+
+.avatarContainer-28iYmV.avatar-3tNQiO.avatarSmall-1PJoGO.avatarSpeaking-2IGMRN{
+	box-shadow:inset 0 0 0 2px hsl(139,calc(var(--saturation-factor, 1)*47.3%),43.9%),inset 0 0 0 3px var(--background-secondary);
+}
