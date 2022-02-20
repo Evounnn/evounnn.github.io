@@ -1,3 +1,5 @@
+/*CSS*/
+
 /*Text color*/
 .container-1oeRFJ{
   color: var(--text-color);
@@ -31,6 +33,30 @@
 
 .numberBadge-37OJ3S.base-3IDx3L.baseShapeRound-3epLEv{
   background-color: var(--border-color) !important;
+}
+
+.lookFilled-yCfaCM.colorGreen-3y-Z79{
+  background-color: var(--background-color);
+  border: 2px solid var(--border-color);
+  opacity: 0.5;
+}
+
+.lookFilled-yCfaCM:hover.colorGreen-3y-Z79{
+  background-color: var(--background-color);
+  border: 2px solid var(--border-color);
+  opacity: 1;
+}
+
+.userPopout-2j1gM4{
+  background-color: var(--background-color);
+}
+
+.bodyInnerWrapper-2bQs1k{
+  background-color: var(--background-color);
+}
+
+.footer-3naVBw{
+  background-color: var(--background-color);
 }
 
 /*border*/
@@ -165,6 +191,50 @@
 
 .icon-1zKOXL.guildIconImage-74OdmM.guildIcon-3ZfRfI.iconSizeLarge-_r2zCK.iconActiveLarge-ac-EDu{
   border: 4px solid var(--border-color);
+}
+
+.headerNormal-3Zn_yu{
+  border: 5px solid var(--border-color);
+}
+  .popoutBanner-3cqRD9{
+    width: 290px;
+  }
+
+.headerTop-3GPUSF{
+  border-left: 5px solid var(--border-color);
+  border-right: 5px solid var(--border-color);
+}
+
+.body-2wLx-E.thin-31rlnD.scrollerBase-_bVAAt{
+  border: 5px solid var(--border-color);
+  border-top: none;
+}
+
+.footer-3naVBw{
+  border: 5px solid var(--border-color);
+  border-top: none;
+  padding-top: 10px;
+}
+
+.inputDefault-3FGxgL.input-2g-os5.input-2z42oC{
+  border: 2px solid var(--border-color);
+}
+
+.divider-1wtgZ3{
+  height: 5px;
+  background-color: var(--border-color);
+}
+
+.expandedFolderBackground-1kSAf6{
+  background-color: var(--border-color);
+}
+
+.folder-241Joy{
+  background-color: var(--border-color);
+}
+
+.folder-241Joy.hover-3m7-WT{
+  background-color: var(--color-icon);
 }
 
 /*Border embed*/
