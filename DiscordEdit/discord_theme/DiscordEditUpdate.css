@@ -59,6 +59,32 @@
   background-color: var(--background-color);
 }
 
+.appMount-2yBXZl{
+  background-image: var(--background-img);
+  background-size: cover;
+  filter: var(--filter-img);
+}
+
+.bg-1QIAus{
+  background-color: var(--background-color);
+}
+
+.standardSidebarView-E9Pc3j{
+  background-color: initial;
+}
+
+.contentRegion-3HkfJJ{
+  background-color: initial;
+}
+
+.layer-86YKbF{
+  background-color: initial;
+}
+
+.app-2CXKsg{
+  background-color: var(--background-color);
+}
+
 /*border*/
 
 .chat-2ZfjoI{
@@ -235,6 +261,23 @@
 
 .folder-241Joy.hover-3m7-WT{
   background-color: var(--color-icon);
+}
+
+.container-2RRFHK.fixClipping-3GOd_d{
+  border: 5px solid var(--border-color);
+}
+
+.animatedContainer-2laTjx, .bannerImage-ubW8K-{
+  border-bottom: 5px solid var(--border-color);
+}
+
+.contentRegion-3HkfJJ{
+  border: 5px solid var(--border-color);
+}
+
+.sidebarRegion-1VBisG{
+  border: 5px solid var(--border-color);
+  border-right: none;
 }
 
 /*Border embed*/
