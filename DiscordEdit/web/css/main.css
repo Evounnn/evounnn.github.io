@@ -356,6 +356,90 @@ div#body{
 	margin-left: 10px;
 }
 
+/*MC_theme*/
+
+.MC_theme{
+	border: 5px solid var(--border-color);
+	width: 100%;
+	max-width: 400px;
+	height: 482.4px;
+	border-radius: 10px;
+	display: block;
+	margin-left: 10px;
+	margin-top: 10px;
+	font-family: Calibri, sans-serif;
+}
+
+.MC_themeimg{
+	border: 1px solid var(--border-color);
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	width: 380.8px;
+	height: 184px;
+	z-index: 1;
+}
+
+.MC_themetitle{
+	font-size: 20px;
+	text-align: center;
+	text-decoration-line: underline;
+}
+
+.MC_themedesc{
+	font-size: 15px;
+	margin-bottom: 18.4px;
+}
+
+.MC_themetitledesc{
+	margin-left: 5px;
+	font-size: 15px;
+}
+
+.MC_themeauthor{
+	font-size: 15px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.MC_themetitleauthor{
+	margin-left: 5px;
+	font-size: 15px;
+}
+
+.MC_themedownloada{
+	color: whitesmoke;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.MC_themedownloaddiv{
+	padding: 5px;
+	background-color: #7289da;
+	width: 105px;
+	
+	border: 1px solid #7289da;
+	font-family: Calibri, sans-serif;
+	transition: background-color 0.33s, border 0.33s;
+}
+
+.MC_themedownloaddiv:hover{
+	border: 1px solid var(--border-color);
+	background-color: black;
+}
+
+.MC_themeseparator{
+	border-top: 1px solid var(--border-color);
+	width: 380px;
+	margin-left: 10px;
+}
+
+.MC_themeWebsite{
+	margin-top: 10px;
+	padding-bottom: 5px;
+	margin-left: 10px;
+}
+
 /*RadialStatus*/
 
 .RadialStatus{
