@@ -7,6 +7,13 @@
 
 /*background-color*/
 
+.appMount-2yBXZl{
+  background-image: var(--background-img);
+  background-size: cover;
+  background-position: center;
+  filter: var(--filter-img);
+}
+
 .tabBody-2dgbAs{
   background-color: var(--background-color);
 }
@@ -17,6 +24,7 @@
 
 .pageWrapper-2PwDoS{
   background-color: var(--background-color) !important;
+  border: 5px solid var(--border-color);
 }
 
 .root-g14mjS{
@@ -57,12 +65,6 @@
 
 .footer-3naVBw{
   background-color: var(--background-color);
-}
-
-.appMount-2yBXZl{
-  background-image: var(--background-img);
-  background-size: cover;
-  filter: var(--filter-img);
 }
 
 .bg-1QIAus{
@@ -280,6 +282,8 @@
   border-right: none;
 }
 
+
+
 /*Border embed*/
 
 .embedFull-1HGV2S{
@@ -296,10 +300,7 @@
   border: 5px solid var(--border-color);
   border-bottom: none;
   margin-top: 0;
-}
-
-.wordmarkWindows-2dq6rw{
-
+  background-color: var(--background-color);
 }
 
 .winButton-3UMjdg{
@@ -342,4 +343,39 @@
 
 .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub{
   background-color: var(--color-icon);
+}
+
+.colorInfo-1kEg3T{
+  background-color: var(--color-icon);
+}
+
+.homeWrapperNormal-bu1BS6.homeWrapper-L4ors0{
+  border: 5px solid var(--border-color);
+}
+
+/* chat notif */
+
+.divider-IqmEqJ.hasContent-1y12-u.divider-2rZFJK.isUnread-3Lojb-.hasContent-31hcsn{
+  border-color: var(--color-icon);
+}
+
+.isUnread-3Lojb- .content-3spvdd{
+  color: var(--color-icon);
+}
+
+.unreadPill-3nEWYM{
+  background-color: var(--color-icon);
+}
+
+.unreadPillCapStroke-1nE1Q8{
+  color: var(--color-icon);
+  fill: var(--color-icon);
+}
+
+.newMessagesBar-1hF-9G{
+  background-color: var(--color-icon);
+}
+
+.live-1V2D-f.liveLarge-IxMVzY.textBadge-1fdDPJ.base-3IDx3L.liveShapeRoundRight-1ifBrO[style*="background-color: hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%);"]{
+  background-color: var(--color-icon) !important;
 }
