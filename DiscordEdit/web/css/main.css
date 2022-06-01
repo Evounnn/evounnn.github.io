@@ -61,6 +61,7 @@ body{
 	position: fixed;
 	z-index: 2;
 	background-color: black;
+	min-width: 300px;
 }
 
 #navbackground{
