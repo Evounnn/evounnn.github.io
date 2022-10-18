@@ -404,3 +404,22 @@
 .userAvatar-3Hwf1F.avatar-3FKimL.avatarSmall-3qwAkA.avatarSpeaking-2pCGrZ{
   box-shadow: inset 0 0 0 2px hsl(139,calc(var(--saturation-factor, 1)*47.3%),43.9%),inset 0 0 0 3px var(--background-secondary);
 }
+
+.username-h_Y3Us.desaturateUserColors-1O-G89.clickable-31pE3P[style="color: rgb(2, 1, 1);"]{
+  color: white !important;
+}
+
+.username-u-ebrn.desaturateUserColors-1O-G89[style="color: rgb(2, 1, 1);"]{
+  color: white !important;
+}
+
+.avatar-2e8lTP{
+  border: solid 3px var(--color-icon);
+}
+
+.bd-notice{
+  background-color: var(--color-icon);
+}
+.wrapper-1gVUIN.minimum-fXpVNc .callContainer-HtHELf{
+   background-color: var(--background-color); 
+}
