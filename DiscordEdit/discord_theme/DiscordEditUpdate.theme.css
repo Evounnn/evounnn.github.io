@@ -18,7 +18,7 @@ https://htmlcolorcodes.com/fr/
 :root{
 
 	/*couleur du fond*/
-	--background-color: red;
+	--background-color: black;
 	/*par defaut sur le thème : black*/
 	--background-img: var(--background-color);
 	/*si tu veux ton image, met dans "--background-color: {color};" tu mets à la place de color "--background-color: rgba(0, 0, 0, 0.2);"
