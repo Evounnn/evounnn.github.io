@@ -492,3 +492,11 @@ div.avatarWrapperNormal-ahVUaC.avatarWrapper-eenWra.avatarPositionNormal-2jWoC2.
 .profilePanel-2PWEok{
   border-left: 5px solid var(--border-color);
 }
+
+.childWrapper-1j_1ub rect[fill="#6370f4"]{
+  fill: var(--color-icon);
+}
+
+.childWrapper-1j_1ub rect[fill="#36393f"]{
+  fill: var(--background-primary);
+}
