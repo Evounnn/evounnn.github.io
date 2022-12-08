@@ -450,3 +450,45 @@ div.avatarWrapperNormal-ahVUaC.avatarWrapper-eenWra.avatarPositionNormal-2jWoC2.
 .membersWrap-3NUR2t .members-3WRCEx{
     height: auto !important;
 }
+
+.row-x_t5Ya+.row-x_t5Ya{
+    padding-top: 15px;
+}
+.avatar-3TrM7c{
+    border: solid 2px #1D8EFF;
+}
+
+#app-mount .wrapper-1VLyxH.viewer-1av623,#app-mount .wrapper-1VLyxH.avatar-3a2ws7{
+    border: solid 3px #1D8EFF;
+}
+
+.avatarContainerMasked-13fYnN foreignObject img{
+    width: 20px!important;
+    height: 20px!important;
+
+}
+
+.size24-9rrwDS .avatarContainer-gPrCzX img{
+    width: 20px!important;
+    height: 20px!important;
+}
+
+.row-x_t5Ya.rowGuildName-21wur6{
+    padding-bottom: 0px;
+}
+
+.wordmarkWindows-2dq6rw{
+    left: 50%;
+}
+.typeWindows-2-g3UY.withFrame-2dL45i.titleBar-1it3bQ.horizontalReverse-2QssvL.flex-3BkGQD.directionRowReverse-HZatnx.justifyStart-2Mwniq.alignStretch-Uwowzr::before{
+    content: "Thème By E.";
+    left: 0;
+    position: absolute;
+    margin-left: 7px;
+    color: var(--color-icon);
+    font-weight: bold;
+}
+
+.profilePanel-2PWEok{
+  border-left: 5px solid var(--border-color);
+}
