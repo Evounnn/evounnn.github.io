@@ -500,3 +500,21 @@ div.avatarWrapperNormal-ahVUaC.avatarWrapper-eenWra.avatarPositionNormal-2jWoC2.
 .childWrapper-1j_1ub rect[fill="#36393f"]{
   fill: var(--background-primary);
 }
+
+.bd-notice:first-child{
+  border-radius: 0 0 0 0;
+}
+
+.notice-2HEN-u.noticeWrapper-8z511t.updateNotice-2DjjHs.colorInfo-1kEg3T{
+  border: 5px solid var(--border-color);
+  border-bottom: none;
+}
+
+.side-2ur1Qk::before{
+    content: "Thème By E.";
+    position: fixed;
+    margin-left: -12%;
+    margin-top: -20px;
+    color: var(--color-icon);
+    font-weight: bold;
+}
