@@ -297,3 +297,21 @@ https://htmlcolorcodes.com/fr/
 .tile-2TcwiO{
     background-color: rgba(0, 0, 0, 0);
 }
+
+/*TROLL*/
+
+body:before{
+    content: "T PD ?";
+    position: fixed;
+    margin-left: calc(50% - 115.8px);
+    margin-top: 25%;
+    color: var(--text-normal);
+    font-weight: bold;
+    font-size: 500%;
+    z-index: 2000;
+    opacity: 1;
+}
+
+.rightTrayIcon-1m3hnG.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.grow-2sR_-F/*[aria-label*="Plein écran"]*/{
+    margin-left: 1000px;
+}
