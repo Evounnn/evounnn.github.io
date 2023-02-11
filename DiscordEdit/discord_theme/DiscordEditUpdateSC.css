@@ -326,7 +326,17 @@ div.avatarWrapperNormal-ahVUaC.avatarWrapper-eenWra.avatarPositionNormal-2jWoC2.
   background-color: var(--background-color);
 }
 
+.winButtonClose-3Q8ZH5 {
+  height: 18px!important;
+  margin-top: -5px!important;
+  margin-right: -5px!important;
+  padding-top: 5px;
+  padding-right: 5px;
+}
+
 .winButton-3UMjdg{
+  margin-top: -5px!important;
+  padding-top: 5px;
   height: 18px;
   top: 0px;
 }
@@ -440,8 +450,12 @@ div.avatarWrapperNormal-ahVUaC.avatarWrapper-eenWra.avatarPositionNormal-2jWoC2.
   border: solid 3px var(--color-icon);
 }
 
+
+
 .bd-notice{
   background-color: var(--color-icon);
+  border: 5px solid var(--border-color);
+  border-bottom: none;
 }
 .wrapper-1gVUIN.minimum-fXpVNc .callContainer-HtHELf{
    background-color: var(--background-color); 
@@ -451,6 +465,9 @@ div.avatarWrapperNormal-ahVUaC.avatarWrapper-eenWra.avatarPositionNormal-2jWoC2.
     height: auto !important;
 }
 
+/*.message-2CShn3.cozyMessage-1DWF9U.groupStart-3Mlgv1.wrapper-30-Nkg.cozy-VmLDNB.zalgo-26OfGz{
+    border-top: solid 3px var(--color-icon);
+}*/
 .row-x_t5Ya+.row-x_t5Ya{
     padding-top: 15px;
 }
@@ -480,26 +497,36 @@ div.avatarWrapperNormal-ahVUaC.avatarWrapper-eenWra.avatarPositionNormal-2jWoC2.
 .wordmarkWindows-2dq6rw{
     left: 50%;
 }
+/*.typeWindows-2-g3UY.withFrame-2dL45i.titleBar-1it3bQ.horizontalReverse-2QssvL.flex-3BkGQD.directionRowReverse-HZatnx.justifyStart-2Mwniq.alignStretch-Uwowzr::before{
+    content: "Thème By E.";
+    left: 0;
+    position: absolute;
+    margin-left: 7px;
+    color: var(--color-icon);
+    font-weight: bold;
+}*/
 
 .profilePanel-2PWEok{
-  border-left: 5px solid var(--border-color);
+    border-left: 5px solid var(--border-color);
 }
 
 .childWrapper-1j_1ub rect[fill="#6370f4"]{
-  fill: var(--color-icon);
+    fill: var(--color-icon);
 }
 
 .childWrapper-1j_1ub rect[fill="#36393f"]{
-  fill: var(--background-primary);
+    fill: var(--background-primary);
 }
 
+/* Chrismas icon <g id="icon" fill="var(--white-500)" style="transition: fill 150ms ease-out 0s;"><path d="M34.48,14.44a25.11,25.11,0,0,0-6.21-1.92,17.28,17.28,0,0,0-.79,1.62,23.6,23.6,0,0,0-6.92,0,17.38,17.38,0,0,0-.8-1.62,25.11,25.11,0,0,0-6.21,1.92A25.08,25.08,0,0,0,9.11,31.56a23.65,23.65,0,0,0,3.66,2.25,25.79,25.79,0,0,0,3.91,1.63,18.33,18.33,0,0,0,1.63-2.67,15.54,15.54,0,0,1-2.57-1.23l.63-.47a18,18,0,0,0,15.27,0c.2.16.41.32.63.47a17,17,0,0,1-2.58,1.23,17.38,17.38,0,0,0,1.64,2.67A24.79,24.79,0,0,0,39,31.6a26.49,26.49,0,0,0,.14-2.66A25.17,25.17,0,0,0,34.48,14.44ZM19,28.12a2.89,2.89,0,0,1-2.72-3A2.94,2.94,0,0,1,16.38,24,2.81,2.81,0,0,1,17,23a2.54,2.54,0,0,1,.92-.67A2.68,2.68,0,0,1,19,22.06a2.72,2.72,0,0,1,1.12.24A2.63,2.63,0,0,1,21,23a2.81,2.81,0,0,1,.57,1,2.94,2.94,0,0,1,.11,1.14A2.92,2.92,0,0,1,21,27.17,2.85,2.85,0,0,1,19,28.12Zm10,0a2.85,2.85,0,0,1-2-.95,2.92,2.92,0,0,1-.74-2.07A2.83,2.83,0,0,1,26.43,24,2.77,2.77,0,0,1,27,23a2.73,2.73,0,0,1,.91-.66A2.83,2.83,0,0,1,29,22.11a2.78,2.78,0,0,1,1.1.23A2.65,2.65,0,0,1,31.6,24a2.66,2.66,0,0,1,.13,1.12,2.89,2.89,0,0,1-2.71,3Z"></path><path d="M42.6,20.64a1.5,1.5,0,1,0-1.5-1.5A1.5,1.5,0,0,0,42.6,20.64Z"></path><path d="M20.82,6.14a.89.89,0,1,0-.89-.89A.89.89,0,0,0,20.82,6.14Z"></path><path d="M4.93,32.06a1,1,0,0,0,0-2,1,1,0,1,0,0,2Z"></path><path d="M11.22,11.72A1.79,1.79,0,1,0,9.44,9.94,1.79,1.79,0,0,0,11.22,11.72Z"></path><path d="M48,38.94V48H0V40.18a17,17,0,0,1,1.55.76c6.49-4.13,10.29-2.65,14.89,0s6.73.84,10.49,0a8.47,8.47,0,0,1,7,1.58C37.32,39.81,41.71,34.8,48,38.94Z"></path></g>*/
+
 .bd-notice:first-child{
-  border-radius: 0 0 0 0;
+    border-radius: 0 0 0 0;
 }
 
 .notice-2HEN-u.noticeWrapper-8z511t.updateNotice-2DjjHs.colorInfo-1kEg3T{
-  border: 5px solid var(--border-color);
-  border-bottom: none;
+    border: 5px solid var(--border-color);
+    border-bottom: none;
 }
 
 .side-2ur1Qk::before{
@@ -510,6 +537,10 @@ div.avatarWrapperNormal-ahVUaC.avatarWrapper-eenWra.avatarPositionNormal-2jWoC2.
     color: var(--color-icon);
     font-weight: bold;
 }
+
+/*.animatedContainer-2laTjx[style="opacity: 0; transform: translateY(-90px);"] > .container-1-ERn5.clickable-vvKY2q.hasBanner-2IrYih.bannerVisible-Vkyg1I.communityInfoVisible-3zc5_s .header-3OsQeK{
+  border-bottom: 5px solid var(--border-color);
+}*/
 
 .userProfileOuterUnthemed-2b2rsv{
     border: 5px solid var(--border-color);
@@ -705,9 +736,13 @@ div.avatarWrapperNormal-ahVUaC.avatarWrapper-eenWra.avatarPositionNormal-2jWoC2.
 }
 
 .bd-addon-list .bd-addon-card{
-  border: 5px solid var(--border-color);
+	border: 5px solid var(--border-color);
 }
 
 .bd-addon-list .bd-addon-header{
-  border-bottom: 1px solid var(--border-color);
+	border-bottom: 1px solid var(--border-color);
+}
+
+#app-mount .item-3XjbnG.themed-2-lozF .tabBarItemContainer-2HdIlr path[d="M18 2H7C5.897 2 5 2.898 5 4V11H12.59L10.293 8.708L11.706 7.292L16.414 11.991L11.708 16.706L10.292 15.294L12.582 13H5V20C5 21.103 5.897 22 7 22H18C19.103 22 20 21.103 20 20V4C20 2.898 19.103 2 18 2Z"],.sidebar-nqHbhN .side-2ur1Qk:is([aria-label="Brugerindstillinger" i], [aria-label="Benutzereinstellungen" i], [aria-label="User Settings" i], [aria-label="Ajustes de usuario" i], [aria-label="Paramètres utilisateur" i], [aria-label="Korisničke postavke" i], [aria-label="Impostazioni utente" i], [aria-label="Naudotojo Nustatymai" i], [aria-label="Felhasználói beállítások" i], [aria-label="Gebruikersinstellingen" i], [aria-label="Brukerinnstillinger" i], [aria-label="Ustawienia użytkownika" i], [aria-label="Configurações de Usuário" i], [aria-label="Setări utilizator" i], [aria-label="Käyttäjäasetukset" i], [aria-label="Användarinställningar" i], [aria-label="Cài đặt người dùng" i], [aria-label="Kullanıcı Ayarları" i], [aria-label="Uživatelská nastavení" i], [aria-label="Ρυθμίσεις χρήστη" i], [aria-label="Потребителски настройки" i], [aria-label="Настройки пользователя" i], [aria-label="Користувацькі налаштування" i], [aria-label="यूज़र सेटिंग" i], [aria-label="ตั้งค่าผู้ใช้" i], [aria-label="用户设置" i], [aria-label="ユーザー設定" i], [aria-label="使用者設定" i], [aria-label="사용자 설정" i]) .item-3XjbnG:nth-last-child(4),#app-mount .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="logout-tab" i]{
+	color: red!important;
 }
