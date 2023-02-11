@@ -1,0 +1,48 @@
+/**
+ * @name DiscordEdit_Small_Settings
+ * @version 1.2.0
+ * @description Tu peux changer en modifiant les informations du fichier BetterDiscord pour un custom complet ! + Radial Status
+ * @author E.#7528, Gibbu#1211
+ * @authorId 
+ * @website https://evounnn.github.io/DiscordEdit/web/index.html
+ * @invite pMu2X4w3ru
+*/
+
+/*couleur :
+https://htmlcolorcodes.com/fr/
+*/
+
+@import url("https://evounnn.github.io/DiscordEdit/discord_theme/DiscordEditUpdate.theme.css");
+/*CSS*/
+
+.layer-86YKbF.baseLayer-W6S8cY.stop-animations, .layer-86YKbF.baseLayer-W6S8cY.animating-1rIrGV {
+  opacity: 1!important;
+  transform: scale(1.0) translateZ(0px)!important;
+}
+
+.layer-86YKbF{
+    background-color: rgba(0, 0, 0, 0.8)!important;
+}
+.layer-86YKbF.baseLayer-W6S8cY{
+    background-color: transparent;
+}
+.layer-86YKbF .standardSidebarView-E9Pc3j{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.toolsContainer-25FL6V.closeIconOnly-2lAimv{
+    margin-left: 50px;
+}
+
+.side-2ur1Qk::before{
+    max-width: 50px;
+    margin-left: -5%!important;
+}
+
+.sidebar-nqHbhN{
+    width: 250px;
+    padding-top: 20px;
+}
+
