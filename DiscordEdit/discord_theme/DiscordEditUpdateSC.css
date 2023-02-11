@@ -606,11 +606,7 @@ div.avatarWrapperNormal-ahVUaC.avatarWrapper-eenWra.avatarPositionNormal-2jWoC2.
     width: 110px!important;
     height: 110px!important;
 }
-.member-2gU6Ar.member-48YF_l.container-1oeRFJ.selected-1-Z6gm .avatarDecoration-2OJuSI .avatar-b5OQ1N{
-    width: 40px!important;
-    height: 40px!important;
-}
-.member-2gU6Ar.member-48YF_l.container-1oeRFJ.clickable-28SzVr .avatarDecoration-2OJuSI .avatar-b5OQ1N{
+.member-2gU6Ar.member-48YF_l.container-1oeRFJ.selected-1-Z6gm .avatarDecoration-2OJuSI .avatar-b5OQ1N, .member-2gU6Ar.member-48YF_l.container-1oeRFJ.clickable-28SzVr .avatarDecoration-2OJuSI .avatar-b5OQ1N, .tiles-2upzxs .wrapper-1VLyxH.avatarWrapper-24Rbpj .avatar-b5OQ1N{
     width: 40px!important;
     height: 40px!important;
 }
