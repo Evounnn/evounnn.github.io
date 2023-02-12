@@ -1,7 +1,7 @@
 /**
  * @name DiscordEditUpdate
  * @version ersion Public
- * @description Tu peux changer en modifiant les informations du fichier BetterDiscord pour un custom complet ! (include Radial Status from Gibbu#1211)
+ * @description Tu peux changer en modifiant les informations du fichier BetterDiscord pour un custom complet !
  * @author E.
  * @website https://evounnn.github.io/DiscordEdit/web/index.html
  * @invite pMu2X4w3ru
@@ -11,7 +11,6 @@
 https://htmlcolorcodes.com/fr/
 */
 
-@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
 @import url("https://evounnn.github.io/DiscordEdit/discord_theme/DiscordEditUpdateSC.css");
 :root {
   --rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
