@@ -134,7 +134,7 @@ https://htmlcolorcodes.com/fr/
     --scrollbar-auto-thumb: var(--text-muted);
     --scrollbar-auto-track: hsl(210,calc(var(--saturation-factor, 1)*9.8%),20%);
 }
-.theme-dark{
+.theme-dark,.theme-light{
   --background-primary: var(--background-color);
   --background-secondary: var(--background-color);
   --background-tertiary: var(--background-color);
@@ -142,6 +142,8 @@ https://htmlcolorcodes.com/fr/
   --channeltextarea-background: var(--background-color);
 
   --text-normal: var(--text-color);
+  
+  --header-primary: var(--text-color);
 
   --background-floating: var(--background-color);
 }
