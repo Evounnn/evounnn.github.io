@@ -7,7 +7,6 @@ body{
 	color: whitesmoke;
 	overflow-x: hidden;
 	margin: 0px;
-	height: 2300px;
 }
 
 /*NAV*/
@@ -19,6 +18,7 @@ body{
 	margin: 5px;
 	background-color: var(--border-color);
 	cursor: pointer;
+	z-index: 4;
 }
 
 #Menubutton2{
@@ -30,6 +30,7 @@ body{
 	cursor: pointer;
 	font-size: 20px;
 	text-align: center;
+	z-index: 4;
 }
 
 #fixedtopbar{
@@ -52,11 +53,10 @@ body{
 
 #nav{
 	border-right: 5px solid var(--border-color);
-	min-width: 20%;
-	width: 20%;
-	max-width: 1519.200px;
+	width: 0%;
+	max-width: 300px;
 	margin-top: -10px;
-	height: 750px;
+	height: 101%;
 	min-height: 1000px;
 	position: fixed;
 	z-index: 2;
@@ -69,7 +69,7 @@ body{
 	border-right: 5px solid var(--border-color);
 	min-width: 10%;
 	width: 100%;
-	max-width: 1900;
+	max-width: 1900px;
 	margin-top: 0px;
 	height: 750px;
 	min-height: 100px;
@@ -1042,4 +1042,65 @@ div.dashboardpluginc{
 	overflow-x: scroll;
 	overflow-y: hidden;
 	display: inline-flex;
+}
+
+/*DEP*/
+
+#DEP {
+	border-radius: 10px;
+	border: 5px solid var(--border-color);
+	text-align: center;
+	margin-left: 25px;
+	margin-right: 75px;
+	background-image: url("https://cdn.discordapp.com/attachments/922903107673948221/1074325033536720986/DET.png");
+	background-position: 50%;
+	background-repeat: no-repeat;
+	min-height: 515px;
+}
+
+.new{
+	float: right;
+	max-width: 32.85px;
+	margin-top: -5px;
+	margin-right: 10px;
+	background-color: #7289da;
+	padding: 5px;
+	border-radius: 20px 20px;
+	z-index: 2 !important;
+}
+
+.TDEP{
+
+	margin-left: calc(50% - 200px);
+	max-width: 400px;
+
+}
+
+.DEP-info{
+	min-height: 249.12px;
+	align-self: center;
+	margin-top: 200px;
+	background-color: black;
+}
+
+.DEPdownloada{
+	color: whitesmoke;
+	text-decoration: none;
+	font-size: 20px;
+
+}
+
+.DEPdownloaddiv{
+	padding: 5px;
+	background-color: #7289da;
+	width: 105px;
+	
+	border: 1px solid #7289da;
+	font-family: Calibri, sans-serif;
+	transition: background-color 0.33s, border 0.33s;
+}
+
+.DEPdownloaddiv:hover{
+	border: 1px solid var(--border-color);
+	background-color: black;
 }
