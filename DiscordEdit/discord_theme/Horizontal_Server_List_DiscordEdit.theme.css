@@ -19,11 +19,11 @@
   --HSL-server-spacing: 10px;  /* Spacing between each server icon | DEFAULT: 10px */
   --HSL-server-direction: column; /* Direct of the server list. | Options: column, column-reverse | DEFAULT: column */
 }
-#app-mount .guilds-2JjMmN .scrollerBase-_bVAAt{
+#app-mount .guilds-2JjMmN .scrollerBase-1Pkza4{
   border: 5px solid var(--border-color);
   border-left:none;
 }
 
-.scroller-3X7KbA.none-2-_0dP.scrollerBase-_bVAAt{
+.scroller-3X7KbA.none-1rXy4P.scrollerBase-1Pkza4{
   border: none;
 } 
