@@ -801,3 +801,30 @@
 	width: 90px!important;
 	height: 90px!important;
 }
+
+.root-1CAIjD{
+	background-color: var(--background-color);
+	border: 5px solid var(--border-color);
+}
+
+.footer-IubaaS{
+	background-color: var(--background-color);
+	border-top: 5px solid var(--border-color);
+}
+
+.modalSize-3WSXDU{
+	border-top: 5px solid var(--border-color);
+}
+
+.imageAccessory-2yA7Kb{
+	right: 6px!important;
+	left: auto;
+}
+
+.messagesPopoutWrap-3zryHW{
+	border: 5px solid var(--border-color);
+}
+
+.menu-2TXYjN.flexible-3B4jwn{
+	border: 5px solid var(--border-color);
+}
