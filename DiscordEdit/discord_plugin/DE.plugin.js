@@ -2,7 +2,7 @@
  * @name DE
  * @author e.7528
  * @authorId 278543574059057154
- * @version 1.0.0 [Beta]
+ * @version 1.1.0 [Beta]
  * @description The plugin to change Discord with all Discord Edit theme by css injection.
  * @website https://evounnn.github.io/
  * @invite pMu2X4w3ru
@@ -26,6 +26,11 @@ module.exports = meta => {
         } else {
           BdApi.DOM.removeStyle("Horizontal_Server_List_DiscordEdit_injcssbyplug");
         };
+        if (DEsettings.setting3 === "true") {
+          BdApi.DOM.addStyle("icons_mwittrien_injcssbyplug", `@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");`);
+        } else {
+          BdApi.DOM.removeStyle("icons_mwittrien_injcssbyplug");
+        };
       };
       Loadset();
     },
@@ -33,6 +38,7 @@ module.exports = meta => {
       BdApi.DOM.removeStyle("DE_injcssbyplug");
       BdApi.DOM.removeStyle("DESmallSettings_injcssbyplug");
       BdApi.DOM.removeStyle("Horizontal_Server_List_DiscordEdit_injcssbyplug");
+      BdApi.DOM.removeStyle("icons_mwittrien_injcssbyplug");
     },
     getSettingsPanel: () => {
         const DEsettings = BdApi.Data.load("DE", "DEsettings");
@@ -50,7 +56,6 @@ module.exports = meta => {
         deSmallSettingsLabel.style = "color : White;";
 
         const deSmallSettingsInput = document.createElement("input");
-        deSmallSettingsInput.class = "checkbox_a"
         deSmallSettingsInput.type = "checkbox";
         deSmallSettingsInput.style = "position: absolute;right: 5%;"
         deSmallSettingsInput.id = "deSmallSettings";
@@ -65,10 +70,23 @@ module.exports = meta => {
         Horizontal_Server_List_DiscordEdit_Label.style = "color : White;";
 
         const Horizontal_Server_List_DiscordEdit_Input = document.createElement("input");
-        Horizontal_Server_List_DiscordEdit_Input.class = "checkbox_a"
         Horizontal_Server_List_DiscordEdit_Input.type = "checkbox";
         Horizontal_Server_List_DiscordEdit_Input.style = "position: absolute;right: 5%;"
         Horizontal_Server_List_DiscordEdit_Input.id = "Horizontal_Server_List_DiscordEdit";
+
+        //icons MWittrien
+
+        const icons_mwittrien_text = document.createElement("div");
+        icons_mwittrien_text.classList.add("setting");
+
+        const icons_mwittrien_label = document.createElement("span");
+        icons_mwittrien_label.textContent = "Icons by MWittrien";
+        icons_mwittrien_label.style = "color : White;";
+
+        const icons_mwittrien_Input = document.createElement("input");
+        icons_mwittrien_Input.type = "checkbox";
+        icons_mwittrien_Input.style = "position: absolute;right: 5%;"
+        icons_mwittrien_Input.id = "icons_mwittrien";
 
         // deSave
 
@@ -91,12 +109,24 @@ module.exports = meta => {
             DEsettings.setting2 = "false";
             BdApi.Data.save("DE", "DEsettings", DEsettings);
           };
+          if (document.getElementById('icons_mwittrien').checked == true){
+            BdApi.DOM.addStyle("icons_mwittrien_injcssbyplug", `@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");`);
+            DEsettings.setting3 = "true";
+            BdApi.Data.save("DE", "DEsettings", DEsettings);
+          }else{
+            BdApi.DOM.removeStyle("icons_mwittrien_injcssbyplug");
+            DEsettings.setting3 = "false";
+            BdApi.Data.save("DE", "DEsettings", DEsettings);
+          };
         };
 
         Horizontal_Server_List_DiscordEdit_Input.addEventListener("click", () => {
           Saved();
         });
         deSmallSettingsInput.addEventListener("click", () => {
+          Saved();
+        });
+        icons_mwittrien_Input.addEventListener("click", () => {
           Saved();
         });
 
@@ -106,11 +136,15 @@ module.exports = meta => {
         if (DEsettings.setting2 == "true") {
             Horizontal_Server_List_DiscordEdit_Input.checked = true;
         };
+        if (DEsettings.setting3 == "true") {
+            icons_mwittrien_Input.checked = true;
+        };
 
         deSmallSettingsText.append(deSmallSettingsLabel, deSmallSettingsInput);
         Horizontal_Server_List_DiscordEdit_Text.append(Horizontal_Server_List_DiscordEdit_Label, Horizontal_Server_List_DiscordEdit_Input);
+        icons_mwittrien_text.append(icons_mwittrien_label, icons_mwittrien_Input);
 
-        mySettingsPanel.append(deSmallSettingsText, document.createElement("br"), Horizontal_Server_List_DiscordEdit_Text, document.createElement("br"));
+        mySettingsPanel.append(deSmallSettingsText, document.createElement("br"), Horizontal_Server_List_DiscordEdit_Text, document.createElement("br"), icons_mwittrien_text, document.createElement("br"));
 
         return mySettingsPanel;
     }
