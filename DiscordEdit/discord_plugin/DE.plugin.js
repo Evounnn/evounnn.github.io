@@ -6,7 +6,7 @@
  * @description The plugin to change Discord with all Discord Edit theme by css injection.
  * @website https://evounnn.github.io/
  * @invite pMu2X4w3ru
- * @updateUrl 
+ * @updateUrl https://evounnn.github.io/DiscordEdit/discord_plugin/DE.plugin.js
 */
 
 module.exports = meta => {
