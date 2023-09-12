@@ -296,7 +296,7 @@
 /*Border embed*/
 
 .embedFull-1HGV2S{
-  border: 4px solid var(--background-tertiary);
+  border: 4px solid var(--border-color);
 }
 
 .embedSuppressButton-1rZHq6{
@@ -882,4 +882,9 @@
 
 .modal-Z9r_Gm.root-1CAIjD.small-2xUY-3.fullscreenOnMobile-2971EC.rootWithShadow-2hdL2J:nth-child(1){
   border-bottom: 5px solid var(--border-color);
+}
+
+.messageAttachmentMediaMosaic-2ic1yt{
+  border-radius: 10px;
+  border: 4px solid var(--border-color);
 }
