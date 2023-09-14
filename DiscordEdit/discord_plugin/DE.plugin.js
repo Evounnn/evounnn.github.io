@@ -14,7 +14,7 @@ module.exports = meta => {
   const info = {
     name:"DE",
     author:"e.7528",
-    version:"1.1.1 [Beta]"
+    version:"1.1.2 [Beta]"
   };
   exports.info = info;
   return {
