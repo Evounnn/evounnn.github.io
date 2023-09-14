@@ -2,7 +2,7 @@
  * @name DE
  * @author e.7528
  * @authorId 278543574059057154
- * @version 1.1.0 [Beta]
+ * @version 1.1.2 [Beta]
  * @description The plugin to change Discord with all Discord Edit theme by css injection.
  * @website https://evounnn.github.io/
  * @invite pMu2X4w3ru
@@ -10,27 +10,54 @@
 */
 
 module.exports = meta => {
+  const request = require("request"), fs = require("fs");
+  const info = {
+    name:"DE",
+    author:"e.7528",
+    version:"1.1.1 [Beta]"
+  };
+  exports.info = info;
   return {
     start: () => {
+      // import {info} from "https://raw.githubusercontent.com/Evounnn/evounnn.github.io/main/DiscordEdit/discord_plugin/DE.plugin.js"
+      function downloadLibrary() {
+        request.get("https://mwittrien.github.io/BetterDiscordAddons/Library/0BDFDB.plugin.js", (e, r, b) => {
+          if (!e && b && r.statusCode == 200) require("fs").writeFile(require("path").join(BdApi.Plugins.folder, "0BDFDB.plugin.js"), b, _ => BdApi.showToast("Finished downloading BDFDB Library", {type: "success"}));
+          else BdApi.alert("Error", "Could not download BDFDB Library Plugin. Try again later or download it manually from GitHub: https://mwittrien.github.io/downloader/?library");
+        })
+      };
+      // downloadLibrary();
+      BdApi.Plugins.get("ZeresPluginLibrary");
+      BdApi.Plugins.get("BDFDB");
       const doc = document.querySelector("head")
       BdApi.DOM.addStyle("DE_injcssbyplug", `@import url("https://evounnn.github.io/DiscordEdit/discord_theme/DiscordEditUpdate.theme.css"); @import url("https://evounnn.github.io/DiscordEdit/discord_theme/icons_mwittrien.theme.css");`);
       const DEsettings = BdApi.Data.load("DE", "DEsettings");
       function Loadset() {
-        if (DEsettings.setting1 === "true") {
-          BdApi.DOM.addStyle("DESmallSettings_injcssbyplug", `@import url("https://evounnn.github.io/DiscordEdit/discord_theme/DiscordEdit_small_settings.theme.css");`);
-        } else {
-          BdApi.DOM.removeStyle("DESmallSettings_injcssbyplug");
-        };
-        if (DEsettings.setting2 === "true") {
-          BdApi.DOM.addStyle("Horizontal_Server_List_DiscordEdit_injcssbyplug", `@import url("https://evounnn.github.io/DiscordEdit/discord_theme/Horizontal_Server_List_DiscordEdit.theme.css");`);
-        } else {
-          BdApi.DOM.removeStyle("Horizontal_Server_List_DiscordEdit_injcssbyplug");
-        };
-        if (DEsettings.setting3 === "true") {
-          BdApi.DOM.addStyle("icons_mwittrien_injcssbyplug", `@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");`);
-        } else {
-          BdApi.DOM.removeStyle("icons_mwittrien_injcssbyplug");
-        };
+        try{
+          if (DEsettings.setting1 === "true") {
+            BdApi.DOM.addStyle("DESmallSettings_injcssbyplug", `@import url("https://evounnn.github.io/DiscordEdit/discord_theme/DiscordEdit_small_settings.theme.css");`);
+          } else {
+            BdApi.DOM.removeStyle("DESmallSettings_injcssbyplug");
+          };
+          if (DEsettings.setting2 === "true") {
+            BdApi.DOM.addStyle("Horizontal_Server_List_DiscordEdit_injcssbyplug", `@import url("https://evounnn.github.io/DiscordEdit/discord_theme/Horizontal_Server_List_DiscordEdit.theme.css");`);
+          } else {
+            BdApi.DOM.removeStyle("Horizontal_Server_List_DiscordEdit_injcssbyplug");
+          };
+          if (DEsettings.setting3 === "true") {
+            BdApi.DOM.addStyle("icons_mwittrien_injcssbyplug", `@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");`);
+          } else {
+            BdApi.DOM.removeStyle("icons_mwittrien_injcssbyplug");
+          };
+        } catch {
+          const DEsettings = {
+            setting1: "false",
+            setting2: "false",
+            setting3: "false"
+          };
+          BdApi.Data.save("DE", "DEsettings", DEsettings); 
+          console.log("restart theme")
+        }
       };
       Loadset();
     },
