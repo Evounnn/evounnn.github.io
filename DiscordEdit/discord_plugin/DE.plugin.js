@@ -2,7 +2,7 @@
  * @name DE
  * @author e.7528
  * @authorId 278543574059057154
- * @version 1.1.2 [Beta]
+ * @version 1.1.3 [Beta]
  * @description The plugin to change Discord with all Discord Edit theme by css injection.
  * @website https://evounnn.github.io/
  * @invite pMu2X4w3ru
@@ -11,13 +11,16 @@
 
 module.exports = meta => {
   const request = require("request"), fs = require("fs");
-  const info = {
-    name:"DE",
-    author:"e.7528",
-    version:"1.1.2 [Beta]"
-  };
-  exports.info = info;
+  const DE_info = {
+      name: "DE",
+      version: "1.1.3 [Beta]",
+      github_raw: "https://raw.githubusercontent.com/l0c4lh057/BetterDiscordStuff/master/Plugins/TypingIndicator/TypingIndicator.plugin.js"
+  }
   return {
+    constructor:() => {this._config = DE_info;},
+		getName:() => {return DE_info.name;},
+		getVersion:() => {return DE_info.version;},
+    
     start: () => {
       // import {info} from "https://raw.githubusercontent.com/Evounnn/evounnn.github.io/main/DiscordEdit/discord_plugin/DE.plugin.js"
       function downloadLibrary() {
@@ -29,6 +32,10 @@ module.exports = meta => {
       // downloadLibrary();
       BdApi.Plugins.get("ZeresPluginLibrary");
       BdApi.Plugins.get("BDFDB");
+      function getName() {return DE_info.name;}
+		  function getVersion() {return DE_info.version;}
+      if (!global.ZeresPluginLibrary) return window.BdApi.alert("Library Missing",`The library plugin needed for ${this.getName()} is missing.<br /><br /> <a href="https://betterdiscord.net/ghdl?url=https://raw.githubusercontent.com/rauenzi/BDPluginLibrary/master/release/0PluginLibrary.plugin.js" target="_blank">Click here to download the library!</a>`);
+      ZLibrary.PluginUpdater.checkForUpdate(getName(), getVersion(), "https://evounnn.github.io/DiscordEdit/discord_plugin/DE.plugin.js");
       const doc = document.querySelector("head")
       BdApi.DOM.addStyle("DE_injcssbyplug", `@import url("https://evounnn.github.io/DiscordEdit/discord_theme/DiscordEditUpdate.theme.css"); @import url("https://evounnn.github.io/DiscordEdit/discord_theme/icons_mwittrien.theme.css");`);
       const DEsettings = BdApi.Data.load("DE", "DEsettings");
