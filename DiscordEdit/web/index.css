@@ -1,0 +1,169 @@
+:root{
+	--band-color: gray;
+	--border-color: #2f3136;
+}
+
+body{
+	background-color: black;
+	color: white;
+	margin: 0;
+	overflow-x: hidden;
+}
+body::-webkit-scrollbar{
+	background-color: black;
+	width: 10px;
+  	height: 20px;
+}
+
+body::-webkit-scrollbar-thumb{
+	background-color: black;
+	background-color: #aaa
+}
+
+.nav-1{
+	padding: 5px;
+	width: 100%;
+	background-color: var(--band-color);
+	min-height: 50px;
+
+}
+
+.buttonnav{
+	text-align: center;
+}
+
+.buttona, .buttondiv{
+	display: inline-flex;
+}
+
+.buttondiv{
+	margin-left: 10px;
+}
+
+.buttondiv1{
+	margin-left: 0;
+}
+
+.buttona{
+	padding: 5px;
+	transition: background-color 0.5s;
+	border-radius: 10px;
+}
+
+.buttona:hover{
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+h1,p,h2{
+	text-align: center;
+}
+
+#body{
+	margin-top: 10px;
+}
+
+#content1{
+	max-width: 1000px;
+	height: 300px;
+	font-size: 20px;
+	text-align: center;
+	/*background: rgba(0,0,0,0.5) url("https://cdn.discordapp.com/attachments/922903107673948221/1074325033536720986/DET.png");*/
+	margin-left: calc(50% - (1000px / 2));
+	border: #2f3136 5px solid;
+	border-radius: 40px;
+}
+
+#content1 h1{
+	font-size: 30px;
+}
+
+.DEP.download.a{
+	margin-left: calc(50% - (100px / 2));
+	position: relative;
+	top: 75px;
+	max-width: 100px;
+	display: block;
+}
+
+.DEP.download.div{
+	padding: 5px;
+	border-radius: 20px;
+	max-width: 100px;
+	background-color: hsl(235, 85.6%, 64.7%);
+}
+
+#content2{
+	max-width: 1000px;
+	margin-left: calc(50% - (1000px / 2));
+	margin-top: 10px;
+	height: calc(579.46px + 10px);
+}
+
+#content2 #discord{
+	background-color: hsl(235, 50%, 50%);
+	padding: 10px;
+	height: 256px;
+	border: #2f3136 5px solid;
+	border-radius: 40px;
+}
+
+#discord img{
+	display: inline-flex;
+	width: 256px;
+	height: 256px;
+}
+
+#discord h1{
+	position: relative;
+	height: 42.5px;
+	margin-left: 100px;
+	top: calc((-256px/2) + (-42.5px));
+}
+
+#discord a{
+	display: inline-flex;
+	position: absolute;
+	margin-right: 20%;
+	margin-top: -235px;
+	right: 0;
+	width: 48px;
+	height: 48px;
+}
+
+#content2 #betterdiscord{
+	background-color: grey;
+	padding: 10px;
+	height: 256px;
+	border: #2f3136 5px solid;
+	border-radius: 40px;
+	margin-top: 10px;
+	margin-bottom: 100px;
+}
+
+#betterdiscord img{
+	display: inline-flex;
+	width: 256px;
+	height: 256px;
+}
+
+#betterdiscord h1{
+	position: relative;
+	height: 42.5px;
+	margin-left: 100px;
+	top: calc((-256px/2) + (-42.5px));
+}
+
+#betterdiscord a{
+	display: inline-flex;
+	position: absolute;
+	margin-right: 20%;
+	margin-top: -235px;
+	right: 0;
+	width: 48px;
+	height: 48px;
+}
