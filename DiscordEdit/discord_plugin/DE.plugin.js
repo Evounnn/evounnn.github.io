@@ -2,6 +2,7 @@
  * @name DE
  * @author e.7528
  * @authorId 278543574059057154
+ * @version 1.1.4 [Beta]
  * @description The plugin to change Discord with all Discord Edit theme by css injection.
  * @website https://evounnn.github.io/
  * @invite pMu2X4w3ru
