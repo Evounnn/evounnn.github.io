@@ -2,7 +2,6 @@
  * @name DE
  * @author e.7528
  * @authorId 278543574059057154
- * @version 1.1.3 [Beta]
  * @description The plugin to change Discord with all Discord Edit theme by css injection.
  * @website https://evounnn.github.io/
  * @invite pMu2X4w3ru
@@ -13,8 +12,7 @@ module.exports = meta => {
   const request = require("request"), fs = require("fs");
   const DE_info = {
       name: "DE",
-      version: "1.1.3 [Beta]",
-      github_raw: "https://raw.githubusercontent.com/l0c4lh057/BetterDiscordStuff/master/Plugins/TypingIndicator/TypingIndicator.plugin.js"
+      version: "1.1.4 [Beta]",
   }
   return {
     constructor:() => {this._config = DE_info;},
