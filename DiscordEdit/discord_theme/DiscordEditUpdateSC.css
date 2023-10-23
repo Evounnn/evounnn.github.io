@@ -892,3 +892,11 @@
 .theme-dark .container-2qjEOK, .theme-dark .page-2dwf_i, .theme-dark .sidebar-2rB69-{
 	background-color: var(--background-color);
 }
+
+.chat-9g_3Xj.container-1um7CU{
+	border:none;
+}
+
+.channelChatWrapper-35N3nR .container-3s2w-i{
+	border-left:5px solid var(--border-color);
+}
