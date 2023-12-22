@@ -1,0 +1,274 @@
+/**
+ * @name DiscordEdit_V2
+ * @version 2.0.0
+ * @description Tu peux changer en modifiant les informations du fichier BetterDiscord pour un custom complet !
+ * @author e.7528
+ * @authorId 
+ * @website https://evounnn.github.io/DiscordEdit/web/
+ * @invite pMu2X4w3ru
+*/
+
+/*couleur :
+https://htmlcolorcodes.com/fr/
+*/
+
+:root{
+
+        /*couleur du fond*/
+        --background-color: black;
+        /*par defaut sur le thème : black*/
+        --background-img: var(--background-color);
+        /*si tu veux ton image, met dans "--background-color: {color};" tu mets à la place de color "--background-color: rgba(0, 0, 0, 0.2);"
+      pour mettre l'image "--background-img: url(ton url);"
+        Note : Retire l'URL et mettez "var(--background-color)" si vous n'utilisez pas d'image*/
+        --filter-img: grayscale(10%);
+
+    /*----------------------------------------*/
+
+        /*couleur des texts*/
+        --text-color: #dcddde;
+        /*par defaut : var(--text-normal)*/
+      /*par defaut sur le thème : var(--text-normal)*/
+
+    /*----------------------------------------*/
+
+        /*couleur icone*/
+        --color-icon: gray;
+        /*par defaut sur le thème : gray*/
+        --color-button-hover :#999999;
+
+    /*----------------------------------------*/
+
+        --delet-button: red;
+        /*par defaut sur le thème : red*/
+
+    /*----------------------------------------*/
+
+        /*pseudo couleurs*/
+        --pseu-color: white;
+        /*par defaut sur le thème : white*/
+
+    /*----------------------------------------*/
+
+        /*couleur des bordure(exemple autour de la boite de message) */
+        --border-color: #2f3136;
+        /*par defaut sur le thème : #2f3136*/
+
+    /*----------------------------------------*/
+
+        /*couleur des bordure(exemple autour de la boite de message) */
+        --border-color-perso: #2f3136;
+        /*par defaut sur le thème : #2f3136*/
+        /*par defaut 'hsl(197,calc(var(--saturation-factor, 1)*100%)' */
+
+    /*----------------------------------------*/
+
+        /*couleur du background mention*/
+        --men-back-color: rgba(47, 49, 54, 0.7);
+        /*par defaut sur le thème : rgba(47, 49, 54, 0.7) (gris comme le logo discord en haut
+          à gauche avc la couleur par défaut du thème.)*/
+
+    /*----------------------------------------*/
+
+        /*couleur du trait à gauche du background mention*/
+        --bef-cha-color: white;
+        /*par defaut sur le thème : white*/
+        --bef-cha-color-alpha: rgba(255, 255, 255, 0.5);
+        /*par defaut sur le thème : rgba(255, 255, 255, 0.5) blanc alpha*/
+
+    /*----------------------------------------*/
+
+        /*couleur du trait à gauche du background mention*/
+        --men-t-back-color: white;
+        /*par defaut sur le thème : white*/
+        --men-t-back-color-alpha: rgba(255, 255, 255, 0.5);
+        /*par defaut sur le thème : rgba(255, 255, 255, 0.5)*/
+
+    /*----------------------------------------*/
+
+        /*couleur du background mention hover*/
+        --men-back-h-color: rgba(47, 49, 54, 0.9);
+        /*par defaut sur le thème : rgba(47, 49, 54, 0.8*/
+
+    /*----------------------------------------*/
+
+      --box-shadow-speak-user : inset 0 0 0 2px hsl(210,100%,56%),inset 0 0 0 3px var(--background-secondary);
+
+    /*----------------------------------------*/
+
+    /*default edit discord*/
+
+        --background-primary-classic: var(--background-color);
+        --background-secondary-classic: var(--background-color);
+        --background-tertiary-classic: var(--background-color);
+        --background-secondary-alt-classic: var(--background-color);
+      --channeltextarea-background-classic: var(--background-color);
+
+
+        --scrollbar-thin-thumb: var(--text-muted);
+        --scrollbar-thin-track: transparent;
+        --scrollbar-auto-thumb: var(--text-muted);
+        --scrollbar-auto-track: hsl(210,calc(var(--saturation-factor, 1)*9.8%),20%);
+}
+.theme-dark,.theme-light{
+  --background-primary: var(--background-color);
+  --background-secondary: var(--background-color);
+  --background-tertiary: var(--background-color);
+  --background-secondary-alt: var(--background-color);
+  --channeltextarea-background: var(--background-color);
+
+  --text-normal: var(--text-color);
+
+  --header-primary: var(--text-color);
+
+  --background-floating: var(--background-color);
+}
+
+.button__66e8c .buttonColor_a6eb73.buttonActive__407a7, .button__66e8c.buttonColor_a6eb73.buttonActive__407a7, .button__66e8c.buttonColor_a6eb73.buttonActive__407a7:hover{
+    background-color: var(--color-icon);
+}
+
+.shelfTopBackground__8e15b{
+    visibility: hidden;
+    z-index: -100;
+    position: fixed;
+}
+
+.root__9b46d{
+    margin-top: 0;
+    max-height: calc(var(--custom-activity-shelf-modal-modal-max-height) - 85px);
+}
+
+.expandedFolderBackground__1bec6{
+    background-color: rgba(255,255,255,0.1);
+}
+
+.folder__17546{
+    background-color: transparent!important;
+}
+
+.disabled__69f9b{
+    opacity: 1;
+}
+
+.wrapper_d281dd:hover .childWrapper__01b9c, .wrapper_d281dd.selected_f5ec8e .childWrapper__01b9c,.circleIconButton_d8df29.selected__5250e{
+    background-color: var(--color-icon);
+}
+
+.circleIconButton_d8df29:not(.selected__5250e) .circleIcon__428dd path{
+    fill: var(--color-icon);
+}
+
+.circleIconButton_d8df29.selected__5250e .circleIcon__428dd path{
+    fill: white;
+}
+
+.border_e782de,.border_d9a17b{
+    box-shadow: var(--box-shadow-speak-user);
+}
+
+.border_e782de.speaking__1dd69,.border_d9a17b.speaking__9b95a{
+    box-shadow: inset 0 0 0 2px var(--green-360),inset 0 0 0 3px var(--black-500);
+}
+
+.root_a28985,.input_d266e7,.footer__89240{
+    background-color: var(--background-color);
+}
+
+/* DE_border */
+
+    .sidebar_ded4b5{
+        border-left: solid 5px var(--border-color);
+        border-radius: 0!important;
+    }
+
+    .container__037ed{
+        border: solid 5px var(--border-color);
+        width: calc(100% - 10px);
+    }
+
+    .container__5c7e7,.chat__52833,.container_b2ce9c,.profilePanel__12596,.contentRegion__0bec1,.applicationStore_fc7d76,.membersWrap__90226{
+        border-left: solid 5px var(--border-color);
+    }
+
+    .typeWindows__5fa63{
+        border: solid 5px var(--border-color);
+        border-bottom: none;
+    }
+
+    .withFrame__485f4{
+        padding-top: 4px;
+        margin: 0;
+    }
+
+    .winButtonClose__73489{
+        top: -9px;
+        padding-top: 5px;
+        margin-right: -5px;
+        padding-right: 5px;
+    }
+
+    .focusLock__10aa5{
+        border: solid 5px var(--border-color);
+        border-radius: 8px;
+    }
+
+    .root_ba16f0{
+        border-radius: 0;
+    }
+
+    .menu_dc52c6,.noiseCancellationPopout__06ec4,.standardSidebarView__1129a,.channelTextArea__2e60f,.messagesPopoutWrap_b3b384,.recentMentionsPopout__826a9{
+        border: solid 5px var(--border-color);
+    }
+
+    .panels__58331{
+        border-top: solid 5px var(--border-color);
+    }
+
+    .activityPanel__22355,.container_d667ff,.header__104ca,.container__11d72,.wrapper_bd2abe,.header__6d5ea,.channel_d48f2d,.header__28ebb.expanded__98fe6,.searchBar_e4ea2a{
+        border-bottom: solid 5px var(--border-color);
+    }
+
+    .animatedContainer__341f6{
+        position: fixed;
+        z-index: -100;
+        visibility: hidden;
+    }
+
+    .content__23cab div[style*="height: 84px;"]{
+        position: fixed;
+        z-index: -100;
+        visibility: hidden;
+    }
+
+    .container_def45c.floating_f021e2{
+        border-left: solid 5px var(--border-color);
+        border-radius: 0;
+    }
+
+    .container_b2ce9c .membersWrap__90226{
+        border: none!important;
+    }
+
+    .footerSeparator__010c9{
+        box-shadow: none;
+        margin: 0;
+        border-top: solid 5px var(--border-color);
+    }
+
+    .scroller__5c5df, .noResults_c69767{
+        padding-top: 5px;
+    }
+
+    .inputDefault__80165,.input_f4043f{
+        border: solid 1px var(--border-color)!important;
+        border-radius: 10px;
+    }
+
+    .inputDefault__80165{
+        width: calc(100% - 10px);
+    }
+
+    .content_e518d4{
+        padding-top: 20px;
+    }
