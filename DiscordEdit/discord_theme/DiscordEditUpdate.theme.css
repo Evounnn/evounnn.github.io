@@ -1,0 +1,147 @@
+/**
+ * @name DiscordEditUpdate
+ * @version ersion Public
+ * @description Tu peux changer en modifiant les informations du fichier BetterDiscord pour un custom complet !
+ * @author E.
+ * @website https://evounnn.github.io/DiscordEdit/web/index.html
+ * @invite pMu2X4w3ru
+*/
+
+/*couleur :
+https://htmlcolorcodes.com/fr/
+*/
+
+@import url("https://evounnn.github.io/DiscordEdit/discord_theme/DiscordEdit[2.0.0].css");
+:root {
+  --rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
+  --rs-medium-spacing: 3px; /* Gap between avatar and status for User popout | MUST end in px */
+  --rs-large-spacing: 4px; /* Gap between avatar and status for User profiles | MUST end in px */
+
+  --rs-small-width: 2px; /* Thickness of status border for members list/dms | MUST end in px */
+  --rs-medium-width: 3px; /* Thickness of status border for User popout | MUST end in px */
+  --rs-large-width: 4px; /* Thickness of status border for User profile | MUST end in px */
+
+  --rs-avatar-shape: 50%; /* 50% for round - 0% for square */
+
+  --rs-online-color: #43b581; /* Colour for online status */
+  --rs-idle-color: #faa61a; /* Colour for idle status */
+  --rs-dnd-color: #f04747; /* Colour for dnd status */
+  --rs-offline-color: #636b75; /* Colour for offline status */
+  --rs-streaming-color: #643da7; /* Colour for streaming status */
+  --rs-invisible-color: #747f8d; /* Colour for invisible status - Note: this will only show for your own invisibility */
+  --rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone |  */
+
+  --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+}
+
+/* Discord Edit */
+
+:root{
+
+    /*couleur du fond*/
+    --background-color: black;
+    /*par defaut sur le thème : black*/
+    --background-img: var(--background-color);
+    /*si tu veux ton image, met dans "--background-color: {color};" tu mets à la place de color "--background-color: rgba(0, 0, 0, 0.2);"
+  pour mettre l'image "--background-img: url(ton url);"
+    Note : Retire l'URL et mettez "var(--background-color)" si vous n'utilisez pas d'image*/
+    --filter-img: grayscale(10%);
+
+/*----------------------------------------*/
+
+    /*couleur des texts*/
+    --text-color: #dcddde;
+    /*par defaut : var(--text-normal)*/
+  /*par defaut sur le thème : var(--text-normal)*/
+
+/*----------------------------------------*/
+
+    /*couleur icone*/
+    --color-icon: gray;
+    /*par defaut sur le thème : gray*/
+    --color-button-hover :#999999;
+
+/*----------------------------------------*/
+
+    --delet-button: red;
+    /*par defaut sur le thème : red*/
+
+/*----------------------------------------*/
+
+    /*pseudo couleurs*/
+    --pseu-color: white;
+    /*par defaut sur le thème : white*/
+
+/*----------------------------------------*/
+
+    /*couleur des bordure(exemple autour de la boite de message) */
+    --border-color: #2f3136;
+    /*par defaut sur le thème : #2f3136*/
+
+/*----------------------------------------*/
+
+    /*couleur des bordure(exemple autour de la boite de message) */
+    --border-color-perso: #2f3136;
+    /*par defaut sur le thème : #2f3136*/
+    /*par defaut 'hsl(197,calc(var(--saturation-factor, 1)*100%)' */
+
+/*----------------------------------------*/
+
+    /*couleur du background mention*/
+    --men-back-color: rgba(47, 49, 54, 0.7);
+    /*par defaut sur le thème : rgba(47, 49, 54, 0.7) (gris comme le logo discord en haut
+      à gauche avc la couleur par défaut du thème.)*/
+
+/*----------------------------------------*/
+
+    /*couleur du trait à gauche du background mention*/
+    --bef-cha-color: white;
+    /*par defaut sur le thème : white*/
+    --bef-cha-color-alpha: rgba(255, 255, 255, 0.5);
+    /*par defaut sur le thème : rgba(255, 255, 255, 0.5) blanc alpha*/
+
+/*----------------------------------------*/
+
+    /*couleur du trait à gauche du background mention*/
+    --men-t-back-color: white;
+    /*par defaut sur le thème : white*/
+    --men-t-back-color-alpha: rgba(255, 255, 255, 0.5);
+    /*par defaut sur le thème : rgba(255, 255, 255, 0.5)*/
+
+/*----------------------------------------*/
+
+    /*couleur du background mention hover*/
+    --men-back-h-color: rgba(47, 49, 54, 0.9);
+    /*par defaut sur le thème : rgba(47, 49, 54, 0.8*/
+
+/*----------------------------------------*/
+
+  --box-shadow-speak-user : inset 0 0 0 2px hsl(210,100%,56%),inset 0 0 0 3px var(--background-secondary);
+
+/*----------------------------------------*/
+
+/*default edit discord*/
+
+    --background-primary-classic: var(--background-color);
+    --background-secondary-classic: var(--background-color);
+    --background-tertiary-classic: var(--background-color);
+    --background-secondary-alt-classic: var(--background-color);
+  --channeltextarea-background-classic: var(--background-color);
+
+
+    --scrollbar-thin-thumb: var(--text-muted);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: var(--text-muted);
+    --scrollbar-auto-track: hsl(210,calc(var(--saturation-factor, 1)*9.8%),20%);
+}
+.theme-dark{
+  --background-primary: var(--background-color);
+  --background-secondary: var(--background-color);
+  --background-tertiary: var(--background-color);
+  --background-secondary-alt: var(--background-color);
+  --channeltextarea-background: var(--background-color);
+
+  --text-normal: var(--text-color);
+
+  --background-floating: var(--background-color);
+}
