@@ -11,7 +11,7 @@
 https://htmlcolorcodes.com/fr/
 */
 
-@import url("https://evounnn.github.io/DiscordEdit/discord_theme/DiscordEdit[2.0.0].css");
+@import url("https://evounnn.github.io/DiscordEdit/discord_theme/DiscordEdit[2.0.0].theme.css");
 :root {
   --rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
   --rs-medium-spacing: 3px; /* Gap between avatar and status for User popout | MUST end in px */
