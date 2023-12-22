@@ -1,0 +1,95 @@
+.sidebar_ded4b5{
+    border-left: solid 5px var(--border-color);
+    border-radius: 0!important;
+}
+
+.container__037ed{
+    border: solid 5px var(--border-color);
+    width: calc(100% - 10px);
+}
+
+.container__5c7e7,.chat__52833,.container_b2ce9c,.profilePanel__12596,.contentRegion__0bec1,.applicationStore_fc7d76,.membersWrap__90226{
+    border-left: solid 5px var(--border-color);
+}
+
+.typeWindows__5fa63{
+    border: solid 5px var(--border-color);
+    border-bottom: none;
+}
+
+.withFrame__485f4{
+    padding-top: 4px;
+    margin: 0;
+}
+
+.winButtonClose__73489{
+    top: -9px;
+    padding-top: 5px;
+    margin-right: -5px;
+    padding-right: 5px;
+}
+
+.focusLock__10aa5{
+    border: solid 5px var(--border-color);
+    border-radius: 8px;
+}
+
+.root_ba16f0{
+    border-radius: 0;
+}
+
+.menu_dc52c6,.noiseCancellationPopout__06ec4,.standardSidebarView__1129a,.channelTextArea__2e60f,.messagesPopoutWrap_b3b384,.recentMentionsPopout__826a9{
+    border: solid 5px var(--border-color);
+}
+
+.panels__58331{
+    border-top: solid 5px var(--border-color);
+}
+
+.activityPanel__22355,.container_d667ff,.header__104ca,.container__11d72,.wrapper_bd2abe,.header__6d5ea,.channel_d48f2d,.header__28ebb.expanded__98fe6,.searchBar_e4ea2a{
+    border-bottom: solid 5px var(--border-color);
+}
+
+.animatedContainer__341f6{
+    position: fixed;
+    z-index: -100;
+    visibility: hidden;
+}
+
+.content__23cab div[style*="height: 84px;"]{
+    position: fixed;
+    z-index: -100;
+    visibility: hidden;
+}
+
+.container_def45c.floating_f021e2{
+    border-left: solid 5px var(--border-color);
+    border-radius: 0;
+}
+
+.container_b2ce9c .membersWrap__90226{
+    border: none!important;
+}
+
+.footerSeparator__010c9{
+    box-shadow: none;
+    margin: 0;
+    border-top: solid 5px var(--border-color);
+}
+
+.scroller__5c5df, .noResults_c69767{
+    padding-top: 5px;
+}
+
+.inputDefault__80165,.input_f4043f{
+    border: solid 1px var(--border-color)!important;
+    border-radius: 10px;
+}
+
+.inputDefault__80165{
+    width: calc(100% - 10px);
+}
+
+.content_e518d4{
+    padding-top: 20px;
+}
