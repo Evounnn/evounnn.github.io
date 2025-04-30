@@ -1,0 +1,68 @@
+body{
+	margin:0px;
+	text-align:center;
+}
+
+#list_link{
+	display:inline-flex;
+}
+
+#list_link .separator{
+	margin-left:5px;
+	margin-right:5px;
+}
+
+footer, header{
+	width:100vw;
+	background-color:black;
+	color:white;
+}
+header a{
+	color:white;
+}
+
+header a:hover{
+	color:grey;
+}
+
+a{
+	text-decoration:none;
+}
+
+/* Content 1 */
+
+#content1{
+	background-image:url("../img/plateau2.png");
+	background-size:100vw;
+	background-position:center;
+	height:50vh;
+	color:white;
+	padding:20px;
+}
+
+/* Sep 1 */
+
+#sep1{
+	height:5vh;
+	background: linear-gradient(to top, rgba(255,255,255,1), rgba(255,255,255,0));
+	margin-top:-5vh;
+}
+
+/* Content 2*/
+
+#content2 #box1{
+	display:inline-flex;
+	margin-top:20px;
+}
+
+#content2 #box1 div{
+	box-shadow: 10px 5px 5px black;
+	border-radius:5px;
+	padding:10px;
+	border:2px solid black;
+	margin-left:5vw;
+}
+
+#content2 #box1 .first{
+	margin-left:0;
+}
