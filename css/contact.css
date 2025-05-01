@@ -1,0 +1,57 @@
+body{
+	margin:0px;
+	text-align:center;
+	background-color:black;
+	color:white;
+}
+
+#list_link{
+	display:inline-flex;
+}
+
+#list_link .separator{
+	margin-left:5px;
+	margin-right:5px;
+}
+
+footer, header{
+	width:calc(99vw);
+	background-color:black;
+	color:white;
+}
+header a{
+	color:white;
+}
+
+header a:hover{
+	color:grey;
+}
+
+a{
+	text-decoration:none;
+}
+#accbutton{
+	position:absolute;
+	left:0;
+}
+/* welcome */
+
+#welcome{
+	background-image:url("../img/plateau2.png");
+	background-size:100vw;
+	background-position:center;
+	height:50vh;
+	color:white;	
+	width:99vw;
+	padding-top:20px
+}
+
+.form{
+	border-radius:100px;
+	box-shadow: 10px 5px 5px black;
+	padding:10px;
+	background-color:grey;
+	height:40vh;
+	width:40vw;
+	margin-left:calc(50% - (40vw/2));
+}

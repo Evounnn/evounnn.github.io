@@ -1,0 +1,97 @@
+body{
+	margin:0px;
+	text-align:center;
+	background-color:black;
+	color:white;
+}
+
+#list_link{
+	display:inline-flex;
+}
+
+#list_link .separator{
+	margin-left:5px;
+	margin-right:5px;
+}
+
+footer, header{
+	width:calc(99vw);
+	background-color:black;
+	color:white;
+}
+header a{
+	color:white;
+}
+
+header a:hover{
+	color:grey;
+}
+
+a{
+	text-decoration:none;
+}
+#accbutton{
+	position:absolute;
+	left:0;
+}
+/* welcome */
+
+#welcome{
+	background-image:url("../img/plateau2.png");
+	background-size:100vw;
+	background-position:center;
+	height:50vh;
+	color:white;	
+	width:99vw;
+	padding-top:20px
+}
+
+#welcome .option_list{
+	
+	display:inline-flex;
+	
+}
+
+#welcome div a h1{
+	margin-top:calc(25% - (37.6px / 2));
+}
+
+#welcome a{
+	margin-left:5vw;
+	background-color:white;
+	padding:20px;
+	width:15vw;
+	height:15vh;
+	text-align:center;
+	box-shadow: 10px 5px 5px black;
+	border-radius:20px;
+}
+
+#welcome .first{
+	margin-left:0;
+}
+
+/* Sep 1 */
+
+#sep1{
+	height:5vh;
+	background: linear-gradient(to top, rgba(0,0,0,1), rgba(255,255,255,0));
+	margin-top:-5vh;
+	z-index:2;	
+}
+
+#sep2{
+	height:5vh;
+	background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(255,255,255,0));
+	margin-top:-5vh;
+	z-index:2;	
+}
+
+/* logo */
+
+#logo img{
+	width:calc(99vw);
+	z-index:-1;
+	position:sticky;
+}
+	

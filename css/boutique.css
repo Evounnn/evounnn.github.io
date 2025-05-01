@@ -1,0 +1,94 @@
+body{
+	margin:0px;
+	text-align:center;
+	background-color:black;
+	color:white;
+}
+
+#list_link{
+	display:inline-flex;
+}
+
+#list_link .separator{
+	margin-left:5px;
+	margin-right:5px;
+}
+
+footer, header{
+	width:calc(99vw);
+	background-color:black;
+	color:white;
+}
+header a{
+	color:white;
+}
+
+header a:hover{
+	color:grey;
+}
+
+footer h2{
+	margin: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+a{
+	text-decoration:none;
+}
+#accbutton{
+	position:absolute;
+	left:0;
+}
+/* welcome */
+
+#welcome{
+	color:white;	
+	width:99vw;
+	padding-top:20px
+}
+
+#bg{
+	margin-top: -7.25vh;
+	position: fixed;
+	background-image:url("../img/plateau2.png");
+	background-size:101vw;
+	background-position:center;
+	height:101vh;
+	width:101vw;
+	z-index: -1;
+}
+
+.form{
+	height: 71vh;
+	background-color: #efece7;
+	border-radius: 20px;
+	padding: 20px;
+	width: 50vw;
+	text-align: center;
+	display: inline-flex;
+	margin-bottom: 20px;
+}
+
+.form div{
+	margin-top: 12.5vh;
+	color: black;
+	margin-left: 20%;
+}
+
+.button{
+	margin-top: 0;
+	margin-left: 0!important;
+	background-color: grey;
+	padding: 15px;
+	font-size: 40px;
+	border-radius: 50px;
+	border: 5px solid grey;
+	transition: background-color 0.5s,border 0.5s;
+}
+
+.button:hover{
+	cursor: pointer;
+	background-color: white;
+	border: 5px solid black;
+}
